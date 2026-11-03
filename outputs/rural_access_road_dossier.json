@@ -1,0 +1,44 @@
+{
+  "dossier_id": "DOSSIER-954ACC",
+  "generated_at": "2026-11-03 21:40:23 UTC",
+  "target_sector": "Rural Access Road",
+  "center_coordinates": "28.6139\u00b0 N, 77.2090\u00b0 E",
+  "overall_severity": "LOW",
+  "classification": "Minor Trail / Preliminary Earthwork Clearing",
+  "summary_metrics": {
+    "total_new_roads_count": 2,
+    "total_new_length_km": 0.066,
+    "total_new_length_meters": 66.06,
+    "total_new_road_area_m2": 218.5,
+    "critical_segments": 0,
+    "high_segments": 0,
+    "medium_segments": 0,
+    "low_segments": 2
+  },
+  "alerts": [
+    {
+      "alert_id": "NTRO-RD-B487E564",
+      "segment_index": 1,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 33.3,
+      "length_km": 0.033,
+      "intersections": 22,
+      "terminals": 4,
+      "confidence_score": 90.333,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-4BD440F5",
+      "segment_index": 2,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 32.76,
+      "length_km": 0.033,
+      "intersections": 26,
+      "terminals": 2,
+      "confidence_score": 90.3276,
+      "status": "NEW_ROAD_FLAGGED"
+    }
+  ]
+}

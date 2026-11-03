@@ -1,0 +1,43 @@
+# SIH 2024 / NTRO Road Extraction & Change Alert Configuration
+
+project:
+  name: "Satellite Road-Network Extractor & Change Alert System"
+  organization: "NTRO / SIH 2024 Problem PS-1564"
+  version: "1.0.0"
+
+model:
+  architecture: "DLinkNet34"  # Options: DLinkNet34, ResNetUNet, AttentionUNet
+  in_channels: 3
+  num_classes: 1
+  pretrained: true
+  input_size: [512, 512]
+  confidence_threshold: 0.50
+
+dataset:
+  deepglobe_path: "./data/deepglobe"
+  massachusetts_path: "./data/massachusetts"
+  default_gsd_meters: 0.5  # Ground Sampling Distance (meters per pixel)
+  batch_size: 4
+  num_workers: 2
+
+change_detection:
+  coregistration:
+    enabled: true
+    min_matches: 15
+    ransac_thresh: 5.0
+  filtering:
+    min_component_area_pixels: 50      # Filter out tiny noise clusters
+    min_road_length_meters: 25.0       # Ignore changes shorter than this threshold
+    morphological_closing_kernel: 5    # Bridge minor occlusions / shadows
+    temporal_margin_threshold: 0.35    # T2 confidence minus T1 confidence threshold
+  classification:
+    critical_length_meters: 1000.0     # Alert level CRITICAL (> 1 km)
+    high_length_meters: 400.0          # Alert level HIGH (400m - 1km)
+    medium_length_meters: 100.0        # Alert level MEDIUM (100m - 400m)
+
+reporting:
+  organization: "National Technical Research Organisation (NTRO)"
+  analyst: "Automated Satellite Change Detection Engine"
+  export_geojson: true
+  export_pdf: true
+  export_csv: true

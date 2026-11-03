@@ -1,0 +1,68 @@
+{
+  "dossier_id": "DOSSIER-B09E35",
+  "generated_at": "2026-11-03 21:40:06 UTC",
+  "target_sector": "Border Infrastructure",
+  "center_coordinates": "28.6139\u00b0 N, 77.2090\u00b0 E",
+  "overall_severity": "MEDIUM",
+  "classification": "Access Spur / Rural Feeder Track Construction",
+  "summary_metrics": {
+    "total_new_roads_count": 4,
+    "total_new_length_km": 0.249,
+    "total_new_length_meters": 248.64,
+    "total_new_road_area_m2": 225.25,
+    "critical_segments": 0,
+    "high_segments": 0,
+    "medium_segments": 1,
+    "low_segments": 3
+  },
+  "alerts": [
+    {
+      "alert_id": "NTRO-RD-AA1FB3B0",
+      "segment_index": 1,
+      "severity": "MEDIUM",
+      "type": "Secondary Branch Road",
+      "length_meters": 82.96,
+      "length_km": 0.083,
+      "intersections": 73,
+      "terminals": 2,
+      "confidence_score": 90.8296,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-C3748B2A",
+      "segment_index": 2,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 73.93,
+      "length_km": 0.074,
+      "intersections": 67,
+      "terminals": 1,
+      "confidence_score": 90.7393,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-960B655E",
+      "segment_index": 3,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 61.28,
+      "length_km": 0.061,
+      "intersections": 33,
+      "terminals": 2,
+      "confidence_score": 90.6128,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-AECD384F",
+      "segment_index": 4,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 30.47,
+      "length_km": 0.03,
+      "intersections": 24,
+      "terminals": 3,
+      "confidence_score": 90.3047,
+      "status": "NEW_ROAD_FLAGGED"
+    }
+  ]
+}

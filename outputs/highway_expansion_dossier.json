@@ -1,0 +1,104 @@
+{
+  "dossier_id": "DOSSIER-FA2116",
+  "generated_at": "2026-11-03 21:39:51 UTC",
+  "target_sector": "Highway Expansion",
+  "center_coordinates": "28.6139\u00b0 N, 77.2090\u00b0 E",
+  "overall_severity": "HIGH",
+  "classification": "Secondary Paved Road Expansion / Bypass Extension",
+  "summary_metrics": {
+    "total_new_roads_count": 7,
+    "total_new_length_km": 0.336,
+    "total_new_length_meters": 336.48,
+    "total_new_road_area_m2": 575.5,
+    "critical_segments": 0,
+    "high_segments": 0,
+    "medium_segments": 1,
+    "low_segments": 6
+  },
+  "alerts": [
+    {
+      "alert_id": "NTRO-RD-670E74AF",
+      "segment_index": 1,
+      "severity": "MEDIUM",
+      "type": "Secondary Branch Road",
+      "length_meters": 109.43,
+      "length_km": 0.109,
+      "intersections": 58,
+      "terminals": 6,
+      "confidence_score": 91.0943,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-F243A89D",
+      "segment_index": 2,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 48.25,
+      "length_km": 0.048,
+      "intersections": 35,
+      "terminals": 4,
+      "confidence_score": 90.4825,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-854AA081",
+      "segment_index": 3,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 46.58,
+      "length_km": 0.047,
+      "intersections": 28,
+      "terminals": 5,
+      "confidence_score": 90.4658,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-1DB2CB3F",
+      "segment_index": 4,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 36.09,
+      "length_km": 0.036,
+      "intersections": 24,
+      "terminals": 2,
+      "confidence_score": 90.3609,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-D09B903F",
+      "segment_index": 5,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 34.35,
+      "length_km": 0.034,
+      "intersections": 22,
+      "terminals": 2,
+      "confidence_score": 90.3435,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-8FB2B07C",
+      "segment_index": 6,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 31.76,
+      "length_km": 0.032,
+      "intersections": 24,
+      "terminals": 3,
+      "confidence_score": 90.3176,
+      "status": "NEW_ROAD_FLAGGED"
+    },
+    {
+      "alert_id": "NTRO-RD-6AF7E7B5",
+      "segment_index": 7,
+      "severity": "LOW",
+      "type": "Minor Spur / Track",
+      "length_meters": 30.02,
+      "length_km": 0.03,
+      "intersections": 16,
+      "terminals": 2,
+      "confidence_score": 90.3002,
+      "status": "NEW_ROAD_FLAGGED"
+    }
+  ]
+}
